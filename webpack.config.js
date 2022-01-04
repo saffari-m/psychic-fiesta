@@ -20,6 +20,7 @@ module.exports = (env, argv) => {
     },
     devServer: {
       port: 9000,
+      compress: false,
     },
     module: {
       rules: [
