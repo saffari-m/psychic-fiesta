@@ -24,16 +24,10 @@ export default function App() {
     });
   };
   return (
-    <div>
-      <h1>Hello World...!</h1>
-      <ErrorBoundary>
-        <Suspense fallback={<div>Loading...</div>}>
-          <VideoPlayer
-            options={VideoPlayerOptions}
-            onReady={handlePlayerReady}
-          />
-        </Suspense>
-      </ErrorBoundary>
-    </div>
+    <ErrorBoundary>
+      <Suspense fallback={<div>Loading...</div>}>
+        <VideoPlayer options={VideoPlayerOptions} onReady={handlePlayerReady} />
+      </Suspense>
+    </ErrorBoundary>
   );
 }

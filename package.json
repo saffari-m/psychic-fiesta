@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@filmgardi/phoenix-video-player": "*",
+    "@filmgardi/phoenix-video-player": "^1.0.0",
     "@filmgardi/videojs-phoenix-theme": "^1.0.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"

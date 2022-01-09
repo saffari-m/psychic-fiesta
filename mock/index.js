@@ -2732,6 +2732,7 @@ function getVideoJsConfig({ imortal }) {
   };
 
   return {
+    autoplay: true,
     sources: imortal ? imortalData.source : extraData.source,
     info: { title: "عنوان فیلم", subtitle: "سریال اجتماعی کمدی" },
     returnUrl: "/",
